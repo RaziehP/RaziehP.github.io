@@ -538,14 +538,6 @@ video {
   position: absolute;
 }
 
-.left-2 {
-  left: 0.5rem;
-}
-
-.top-0 {
-  top: 0px;
-}
-
 .m-2 {
   margin: 0.5rem;
 }
@@ -753,6 +745,8 @@ body .air.air4 {
 
 .e{
   z-index: 1001;
+  top: 0vh;
+  left: 0vh;
 }
 
 @media (min-width: 640px) {
