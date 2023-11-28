@@ -542,14 +542,6 @@ video {
   bottom: 0px;
 }
 
-.right-0 {
-  right: 0px;
-}
-
-.right-1 {
-  right: 0.25rem;
-}
-
 .right-2 {
   right: 0.5rem;
 }
@@ -621,9 +613,9 @@ video {
   color: rgb(252 211 77 / var(--tw-text-opacity));
 }
 
-.text-black {
+.text-gray-300 {
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
 .text-purple-400 {
@@ -641,43 +633,17 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-gray-50 {
-  --tw-text-opacity: 1;
-  color: rgb(249 250 251 / var(--tw-text-opacity));
-}
-
-.text-gray-300 {
-  --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
-}
-
-.text-gray-200 {
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
-}
-
-.opacity-95 {
-  opacity: 0.95;
-}
-
-.opacity-5 {
-  opacity: 0.05;
-}
-
-.opacity-90 {
-  opacity: 0.9;
-}
-
-.opacity-80 {
-  opacity: 0.8;
-}
-
-.opacity-70 {
-  opacity: 0.7;
-}
-
 .opacity-60 {
   opacity: 0.6;
+}
+
+@font-face {
+  font-family: shahab;
+  src: url(./Shahab-Regular.ttf);
+}
+
+div {
+  font-family: shahab;
 }
 
 * {
